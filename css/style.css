@@ -121,6 +121,7 @@ address {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px; 
 }
 
 .features-text {
@@ -250,4 +251,14 @@ img {
 .hero {
     padding: 188px 0;
 }
+.features  .visually-hidden{
+    padding: 120px 0;
 
+}
+.features-list {
+    display: flex;
+    gap: 24px; 
+}
+.features-list-inside {
+    width: calc((100% - 72px) / 4);
+}
