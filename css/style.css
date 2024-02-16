@@ -135,6 +135,7 @@ address {
 
 .header-content {
     background-color: #F4F4FD;
+    padding: 120px 0
 }
 
 
@@ -147,10 +148,15 @@ address {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px; 
 }
+
 
 .header-content-list {
     background-color: #FFFFFF;
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
 }
 
 
@@ -161,6 +167,8 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
+    text-align: center; 
+    margin-bottom: 8px;
 }
 
 .card-content {
@@ -170,6 +178,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
+    text-align: center;
 }
 
 .project-title {
@@ -251,14 +260,22 @@ img {
 .hero {
     padding: 188px 0;
 }
-.features  .visually-hidden{
+.features  {
     padding: 120px 0;
-
 }
+.visually-hidden
 .features-list {
     display: flex;
     gap: 24px; 
 }
 .features-list-inside {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
+}
+.header-list {
+    display: flex; 
+    gap: 24px;
+}
+
+.info-member {
+    padding: 32px 0 ;
 }
