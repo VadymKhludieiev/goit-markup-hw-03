@@ -110,9 +110,16 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.features-strategy .visually-hidden {
 
-
-
+}
+.features-list {
+    display: flex; 
+    gap: 24px; 
+}
+.features-list-inside {
+    width: calc((100% - 72px) / 4); 
+}
 
 .features-header {
     font-family: "Roboto";
@@ -154,7 +161,7 @@ address {
 
 .header-content-list {
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 
 }
@@ -206,11 +213,11 @@ address {
 
 .footer-logo {
     font-family: "Raleway",sans-serif;
-    display: inline-block;margin-bottom: 16px; 
+    display: inline-block;
+    margin-bottom: 16px; 
 }
 .footer-logo-features {
     color: #f4f4fd;
-    display: inline-block;
     margin-bottom: 16px; 
 }
 
@@ -268,7 +275,7 @@ img {
 .features  {
     padding: 120px 0;
 }
-.visually-hidden
+
 .features-list {
     display: flex;
     gap: 24px; 
