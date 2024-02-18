@@ -110,15 +110,15 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.features-strategy .visually-hidden {
-
+.visually-hidden .features-strategy {
+    
 }
 .features-list {
     display: flex; 
     gap: 24px; 
 }
 .features-list-inside {
-    width: calc((100% - 72px) / 4); 
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .features-header {
@@ -161,7 +161,7 @@ address {
 
 .header-content-list {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 
 }
@@ -219,6 +219,7 @@ address {
 .footer-logo-features {
     color: #f4f4fd;
     margin-bottom: 16px; 
+    display: inline-block;
 }
 
 .project-content-list {
