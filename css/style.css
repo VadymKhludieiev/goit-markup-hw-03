@@ -334,3 +334,6 @@ img {
     margin-bottom: 8px
 }
 
+.calc {
+    width: calc((100% - 72px) / 4);
+}
