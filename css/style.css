@@ -217,7 +217,6 @@ address {
 .footer-logo-features {
     color: #f4f4fd;
     margin-bottom: 16px; 
-    display: inline-block;
 }
 
 .project-content-list {
@@ -297,7 +296,7 @@ img {
     padding-bottom: 120px;
 }
 .main-title-portfolio {
-    margin-bottom: 8px; 
+    margin-bottom: 72px;  
 
 }
 .portfolio-list {
@@ -325,4 +324,8 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.project-title {
+    margin-bottom: 8px
 }
