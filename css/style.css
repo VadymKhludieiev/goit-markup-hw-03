@@ -211,12 +211,16 @@ address {
 
 .footer-logo {
     font-family: "Raleway",sans-serif;
-    display: inline-block;
     margin-bottom: 16px; 
+    display: inline-block;
+}
+.footer {
+
 }
 .footer-logo-features {
     color: #f4f4fd;
     margin-bottom: 16px; 
+    
 }
 
 .project-content-list {
@@ -329,6 +333,4 @@ img {
 .project-title {
     margin-bottom: 8px
 }
-.footer {
-    display:inline-block;
-}
+
