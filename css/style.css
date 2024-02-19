@@ -329,3 +329,6 @@ img {
 .project-title {
     margin-bottom: 8px
 }
+.footer {
+    display:inline-block;
+}
