@@ -110,9 +110,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.visually-hidden .features-strategy {
-    
-}
+
 .features-list {
     display: flex; 
     gap: 24px; 
@@ -313,4 +311,16 @@ img {
     border-top: none; 
     margin-bottom: 8px;
 
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
