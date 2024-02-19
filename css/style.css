@@ -284,10 +284,8 @@ img {
     gap: 24px; 
    
 }
-.features-list-inside {
-    width: calc((100% - 3 * 24px) / 4);
+
     
-}
 .header-list {
     display: flex; 
     gap: 24px;
@@ -331,9 +329,6 @@ img {
     overflow: hidden;
 }
 
-.calc {
-    width: calc((100% - 72px) / 4);
-}
 .portfolio-list-content {
     width: calc((100% - 48px) / 3); 
 }
