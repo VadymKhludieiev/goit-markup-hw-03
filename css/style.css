@@ -334,7 +334,7 @@ padding: 24px 0;
   
 }
 .footer {
-    display: inline-block;
+    /* display: inline-block; */
 }
 .project-content-list {
     color: #f4f4fd;
