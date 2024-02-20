@@ -43,6 +43,7 @@ img {
     align-items: center; 
 }
 .header-logo {
+    /* display: inline-block; */
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
@@ -60,7 +61,7 @@ img {
     
 .footer-logo
 {       
-    
+    display: inline-block;
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
@@ -70,12 +71,13 @@ img {
     letter-spacing: 0.03em;
     margin-right: 76px;
     margin-bottom: 16px; 
-    display: inline-block;
+    /* display: inline-block; */
 }
 .footer-logo-features {
+    display: inline-block;
     color: #f4f4fd;
     margin-bottom: 16px; 
-    display: inline-block;
+    
     
 }
 
