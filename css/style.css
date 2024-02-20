@@ -180,7 +180,7 @@ padding: 24px 0;
     gap: 24px; 
 }
 .features-list-inside {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4); 
 }
 .features-header {
     font-family: "Roboto";
@@ -217,6 +217,7 @@ padding: 24px 0;
     gap: 24px;
 }
 .our-team-item {
+    width: calc((100% - 72px) / 4); 
     color:  #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -226,7 +227,6 @@ padding: 24px 0;
     text-transform: capitalize;
     margin-bottom: 72px; 
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .info-member {
@@ -283,11 +283,7 @@ padding: 24px 0;
     padding-left: 0;
 }
 .portfolio-list-content {
-    
-/* height: 420px;
-    width: calc((100% - 48px) / 3);  
-    padding: 32px 16px;
-    margin-bottom: 8px; */
+
     width: calc((100% - 48px) / 3); 
     box-sizing: content-box;
     display: inline-block;
