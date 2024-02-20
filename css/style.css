@@ -6,6 +6,8 @@ body {
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding:0;
 }
 a {
     text-decoration: none;
@@ -68,7 +70,7 @@ img {
     letter-spacing: 0.03em;
     margin-right: 76px;
     margin-bottom: 16px; 
-    display: inline-block;
+    /* display: inline-block; */
 }
 .footer-logo-features {
     color: #f4f4fd;
@@ -289,7 +291,7 @@ padding: 24px 0;
     display: inline-block;
     width: 360px;
     height: 420px;
-    border: 1px solid #e7e9fc; 
+    /* border: 1px solid #e7e9fc;  */
     border-top: none; 
     
 }
