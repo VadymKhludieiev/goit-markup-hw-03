@@ -209,6 +209,7 @@ padding: 24px 0;
     align-items: center;
 }
 .our-team-title {
+    margin-bottom: 72px; 
 }
 .our-team-list {
     display: flex; 
