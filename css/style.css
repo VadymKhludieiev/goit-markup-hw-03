@@ -70,11 +70,12 @@ img {
     letter-spacing: 0.03em;
     margin-right: 76px;
     margin-bottom: 16px; 
-    /* display: inline-block; */
+    display: inline-block;
 }
 .footer-logo-features {
     color: #f4f4fd;
     margin-bottom: 16px; 
+    display: inline-block;
     
 }
 
